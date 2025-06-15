@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица маршрутов</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="King">
+
+      <div class="Header"><h1>Действующие маршруты IPv4</h1></div>
+
+      <div class="Middle">
+        <table class="m0">
+          <tr class="m01">
+            <th class="m02"><div class="m03">Адресс назначения</div>
+              <button id="m031" onclick="myFunction()"><div class="m030">Sort</div></button>
+            </th>
+            <th class="m02"><div class="m04">Шлюз</div>
+              <button id="m041" onclick="myFunction1()"><div class="m040">Sort</div></button>
+            </th>
+            <th class="m02"><div class="m05">Интерфейс</div>
+              <button id="m051" onclick="myFunction2()"><div class="m050">Sort</div></button>
+            </th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0211">0.0.0.0/0</th>
+            <th class="m022" id="m0221">193.0.174.1</th>
+            <th class="m023" id="m0231">Подключение Ethernet</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0212">10.1.30.0/24</th>
+            <th class="m022" id="m0222">0.0.0.0</th>
+            <th class="m023" id="m0232">Гостевая сеть</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0213">192.168.1.0/24</th>
+            <th class="m022" id="m0223">0.0.0.0</th>
+            <th class="m023" id="m0233">Домашняя сеть</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0214">193.0.174.0/24</th>
+            <th class="m022" id="m0224">0.0.0.0</th>
+            <th class="m023" id="m0234">Подключение Ethernet</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0215">193.0.175.0/25</th>
+            <th class="m022" id="m0225">193.0.174.10</th>
+            <th class="m023" id="m0235">Подключение Ethernet</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0216">193.0.175.22/32</th>
+            <th class="m022" id="m0226">193.0.174.1</th>
+            <th class="m023" id="m0236">Подключение Ethernet</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0217">193.0.175.24/323</th>
+            <th class="m022" id="m0227">193.0.174.13</th>
+            <th class="m023" id="m0237">Подключение Ethernet2</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0218">193.0.175.23/322</th>
+            <th class="m022" id="m0228">193.0.174.12</th>
+            <th class="m023" id="m0238">Подключение Ethernet3</th>
+          </tr>
+          <tr class="m01">
+            <th class="m021" id="m0219">193.0.175.21/321</th>
+            <th class="m022" id="m0229">193.0.174.11</th>
+            <th class="m023" id="m0239">Подключение Ethernet4</th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="Footer"></div>
+
+      <div class="Ground"></div>
+
+      <div class="Underground"></div>
+
+    </div>
+
+    <script src="1.js"></script>
+
+    <div id="root"></div>
+    
+  </body>
+</html>
